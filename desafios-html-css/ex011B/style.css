@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+    @font-face {
+    font-family: "idroid.otf";
+    src: url('idroid.otf') format('opentype');
+    
+
+}
+body{
+    background-color: #b5f1b0;
+    text-align: justify;
+    margin: auto;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, #b5f1b0, #227A1A);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 1px black;
+    
+}
+
+header > h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 8px 2px 9px rgb(41, 40, 40);
+    
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: rgba(0, 0, 0, 315);
+}
+
+nav{
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+nav > a{
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover{
+    color: rgb(194, 189, 189);
+    border-radius: 10px;
+    transition-duration: .5s;
+    padding: 10px;
+    background-color: #085201;
+    text-decoration: underline;
+}
+section{
+    background-color: white;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main{ 
+    margin: auto; 
+    margin-top: -10px;
+    min-width: 150px;
+    max-width: 960px;
+    box-shadow: 0px 0px 4px 0px black;
+    
+    
+}
+
+#primeiro{
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 2em; 
+    font-family: "idroid.otf", arial, serif; 
+    color: #227A1A;
+}
+
+section > p{
+    text-indent: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+
+h2{
+    background-image: linear-gradient(to right, rgb(145, 248, 145),white);
+    color: #227A1A;
+    padding: 3px;
+    margin: 10px;
+    font-family: "idroid.otf", arial, serif;
+}
+
+div#irina{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div#bug{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.links{
+    background-color: #b5f1b0;
+    color: #227A1A;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#video{
+    border-style: solid;
+    color: #227A1A;
+    border-right-width: 40px;
+    border-left-width: 40px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+}
+article{
+    background-color: #b5f1b0;
+    text-indent: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px 15px;
+    background-color: #227A1A;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ul{
+    padding-top: 15px;
+    list-style: none;
+    columns: 2;
+}
+article > p{
+    padding-top: 15px;
+    font-weight: 500;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sub:hover{
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #227A1A;
+    color: #b5f1b0;
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#ultimo{
+    padding-top: 5px;
+}
+span{
+    color: white;   
+}
+#sub{
+    color: #227A1A;
+    text-decoration: none;
+    background-color: #b5f1b0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
